@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace PHPTrace\Handlers;
 
 use Exception;
-use PHPTrace\Formatters\DefaultFormatter;
-use PHPTrace\Formatters\FormatterInterface;
-use PHPTrace\Formatters\ProcessorInterface;
+use PHPTrace\Processors\DefaultFormatter;
+use PHPTrace\Processors\FormatterInterface;
+use PHPTrace\Processors\ProcessorInterface;
 use PHPTrace\LogRecord;
 
 readonly class FileHandler implements HandlerInterface

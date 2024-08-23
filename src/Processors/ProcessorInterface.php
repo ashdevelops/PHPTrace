@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPTrace\Formatters;
+namespace PHPTrace\Processors;
 
 use PHPTrace\LogRecord;
 
